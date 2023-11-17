@@ -47,7 +47,7 @@ For training the model on shape completion, we need camera parameters for each v
 which are not directly available. To obtain these, simply run
 
 ```bash
-$ python convert_cam_params.py --dataroot DATA_DIR --mitsuba_xml_root XML_DIR
+python convert_cam_params.py --dataroot DATA_DIR --mitsuba_xml_root XML_DIR
 ```
 
 which will create `..._cam_params.npz` in each provided data folder for each view.
@@ -59,7 +59,7 @@ Pretrained models can be downloaded [here](https://drive.google.com/drive/folder
 ## Training:
 
 ```bash
-$ python train_generation.py --category car|chair|airplane
+python train_generation.py --category car|chair|airplane
 ```
 
 Please refer to the python file for optimal training parameters.
@@ -67,7 +67,7 @@ Please refer to the python file for optimal training parameters.
 ## Testing:
 
 ```bash
-$ python train_generation.py --category car|chair|airplane --model MODEL_PATH
+python train_generation.py --category car|chair|airplane --model MODEL_PATH
 ```
 
 ## Results
