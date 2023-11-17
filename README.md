@@ -10,11 +10,11 @@ Implementation of Shape Generation and Completion Through Point-Voxel Diffusion
 
 [Linqi Zhou](https://alexzhou907.github.io), [Yilun Du](https://yilundu.github.io/), [Jiajun Wu](https://jiajunwu.com/)
 
-## Requirements:
+## Requirements
 
 Make sure the following environments are installed.
 
-```
+```text
 python==3.6
 pytorch==1.4.0
 torchvision==0.5.0
@@ -28,7 +28,7 @@ scipy==1.5.1
 
 Install PyTorchEMD by
 
-```
+```shell
 cd metrics/PyTorchEMD
 python setup.py install
 cp build/**/emd_cuda.cpython-36m-x86_64-linux-gnu.so .
