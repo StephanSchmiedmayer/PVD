@@ -56,7 +56,7 @@ which will create `..._cam_params.npz` in each provided data folder for each vie
 
 Pretrained models can be downloaded [here](https://drive.google.com/drive/folders/1Q7aSaTr6lqmo8qx80nIm1j28mOHAHGiM?usp=sharing).
 
-## Training:
+## Training
 
 ```bash
 python train_generation.py --category car|chair|airplane
@@ -64,7 +64,7 @@ python train_generation.py --category car|chair|airplane
 
 Please refer to the python file for optimal training parameters.
 
-## Testing:
+## Testing
 
 ```bash
 python train_generation.py --category car|chair|airplane --model MODEL_PATH
